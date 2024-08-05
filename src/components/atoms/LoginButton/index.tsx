@@ -7,7 +7,6 @@ function LoginButton(props: { text: string }) {
 
   const handleModalShow = () => {
     setModalShow(!modalShow);
-    console.log(modalShow);
   };
 
   return (

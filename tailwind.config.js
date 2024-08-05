@@ -7,8 +7,8 @@ export default {
         custom: '0px 20px 40px 0px rgba(0, 0, 0, 0.05)',
       },
       backgroundImage: () => ({
-        'custom-image': "url('./src/assets/img/news-bg.png')",
-        'custom-close-image': "url('./src/assets/img/close-line-icon.png')",
+        'custom-image': "url('/src/assets/img/news-bg.png')",
+        'custom-close-image': "url('/src/assets/img/close-line-icon.png')",
       }),
       maxWidth: {
         custom: '220px',
