@@ -1,25 +1,30 @@
 import ServiceBlock from '../../atoms/ServiceBlock';
+import ServiceImage1 from '../../../assets/img/svc-1.svg';
+import ServiceImage2 from '../../../assets/img/svc-2.svg';
+import ServiceImage3 from '../../../assets/img/svc-3.svg';
+import ServiceImage4 from '../../../assets/img/svc-4.svg';
+import ServiceImage5 from '../../../assets/img/svc-5.svg';
 
 function ServiceBlockGroup() {
   const data: any = {
     '1': {
-      imagePath: '/src/assets/img/svc-1.svg',
+      imagePath: ServiceImage1,
       text: 'Market-leading 3D player for the web',
     },
     '2': {
-      imagePath: '/src/assets/img/svc-2.svg',
+      imagePath: ServiceImage2,
       text: 'Interactive and configurable, VR and AR ready',
     },
     '3': {
-      imagePath: '/src/assets/img/svc-3.svg',
+      imagePath: ServiceImage3,
       text: 'Works with all operating systems, browsers and devices',
     },
     '4': {
-      imagePath: '/src/assets/img/svc-4.svg',
+      imagePath: ServiceImage4,
       text: 'Embeddable everywhere, for eCommerce, advertising and social media',
     },
     '5': {
-      imagePath: '/src/assets/img/svc-5.svg',
+      imagePath: ServiceImage5,
       text: 'We can export the models to any 3D file type',
     },
   };
