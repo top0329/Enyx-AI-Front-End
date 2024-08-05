@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import TokenBlockGroup from '../../molecules/TokenBlockGroup';
 import PricingButton from '../../atoms/PricingButton';
+import STKImage from '../../../assets/img/stk.svg';
+import InfoCircleImage from '../../../assets/img/info-circle.svg';
 
 function PricingPage() {
   const [pricingMethod, setPricingMethod] = useState<boolean>(true);
@@ -114,7 +116,7 @@ function PricingPage() {
                       <div className="absolute bg-default text-white left-0 px-[10px] py-[5px] top-[20px]">
                         <img
                           className="absolute right-[-11px] top-0 inline-block max-w-full align-middle"
-                          src="/src/assets/img/stk.svg"
+                          src={STKImage}
                           alt=""
                         />
                         <h6 className="mb-0 text-[18px] font-medium leading-[1.2]">
@@ -211,7 +213,7 @@ function PricingPage() {
                       <div className="absolute bg-default text-white left-0 px-[10px] py-[5px] top-[20px]">
                         <img
                           className="absolute right-[-11px] top-0 inline-block max-w-full align-middle"
-                          src="/src/assets/img/stk.svg"
+                          src={STKImage}
                           alt=""
                         />
                         <h6 className="mb-0 text-[18px] font-medium leading-[1.2]">
@@ -244,11 +246,7 @@ function PricingPage() {
               )}
             </div>
             <div className="flex items-center gap-[15px] rounded-[10px] bg-[#D6DDEF] px-[30px] mx-3 py-[15px]">
-              <img
-                className="align-middle"
-                src="/src/assets/img/info-circle.svg"
-                alt=""
-              />
+              <img className="align-middle" src={InfoCircleImage} alt="" />
               <p className="font-bold text-[16px] md:text-[18px] lg:text-[20px] leading-[1.3]">
                 Limited Time Deal: Don't miss your chance to save big with our
                 irresistible launch offer! Get 50% off for life on all

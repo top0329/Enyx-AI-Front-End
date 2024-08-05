@@ -3,6 +3,7 @@ import HeroButtonGroup from '../../molecules/HeroButtonGroup';
 import HeroImage from '../../atoms/HeroImage';
 import About from '../../organisms/About';
 import NewsLetter from '../../organisms/NewsLetter';
+import CameraImage from '../../../assets/img/camera-img.svg';
 
 function AboutPage() {
   return (
@@ -24,7 +25,7 @@ function AboutPage() {
               />
             </div>
             <div className="col-span-12 lg:col-span-5">
-              <HeroImage path={'/src/assets/img/camera-img.svg'} />
+              <HeroImage path={CameraImage} />
             </div>
           </div>
         </div>

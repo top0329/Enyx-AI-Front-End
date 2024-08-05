@@ -1,4 +1,6 @@
 import AboutImage from '../../atoms/AboutImage';
+import AboutImage1 from '../../../assets/img/about-1.png';
+import AboutImage2 from '../../../assets/img/about-2.png';
 
 function About() {
   return (
@@ -30,12 +32,12 @@ function About() {
               </p>
             </div>
             <div className="col-span-2 lg:col-span-1">
-              <AboutImage path="/src/assets/img/about-1.png" />
+              <AboutImage path={AboutImage1} />
             </div>
           </div>
           <div className="flex lg:flex-row items-center mb-0 md:mb-[70px] lg:mb-[100px] flex-col-reverse">
             <div className="basis-1/2">
-              <AboutImage path="/src/assets/img/about-2.png" />
+              <AboutImage path={AboutImage2} />
             </div>
             <div className="basis-1/2 px-3 pb-[30px] lg:pb-0">
               <p className="font-normal text-[16px] md:text-[18px] lg:text-[20px] text-f-gray leading-[1.3] mb-3">
