@@ -1,4 +1,4 @@
-function ServiceBlock(props: {imagePath: string, text: string}) {
+function ServiceBlock(props: { imagePath: string; text: string }) {
   return (
     <div className="text-center block">
       <i className="mb-[20px] h-[80px] flex items-center justify-center">
@@ -11,4 +11,4 @@ function ServiceBlock(props: {imagePath: string, text: string}) {
   );
 }
 
-export default ServiceBlock
+export default ServiceBlock;

@@ -1,6 +1,5 @@
 .btn {
-  @apply
-  uppercase
+  @apply uppercase
   bg-default
   box-border
   text-center
@@ -17,10 +16,9 @@
   leading-[1.3]
   mb-4
   text-[14px]
-  relative
+  relative;
 }
 
 .btn:hover {
-  @apply
-  bg-hover
+  @apply bg-hover;
 }

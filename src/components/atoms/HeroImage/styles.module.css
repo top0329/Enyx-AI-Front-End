@@ -1,6 +1,5 @@
 .heroImage {
-  @apply
-  flex
+  @apply flex
   justify-center
   px-3
   text-right
@@ -8,5 +7,5 @@
   h-auto
   lg:scale-100
   md:scale-[0.8]
-  scale-100
+  scale-100;
 }

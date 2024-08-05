@@ -1,5 +1,5 @@
 import NavLink from '../../atoms/NavLink';
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
 function HeaderNavLinks() {
   const data: any = {
@@ -9,7 +9,7 @@ function HeaderNavLinks() {
   const items = Object.keys(data).map((key) => {
     const { path, text } = data[key];
     return (
-      <li className='inline-block list-none' key={key}>
+      <li className="inline-block list-none" key={key}>
         <NavLink path={path} text={text} />
       </li>
     );

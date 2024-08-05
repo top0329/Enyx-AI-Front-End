@@ -1,8 +1,11 @@
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 import JoinButton from '../../atoms/JoinButton';
 import SeeplansButton from '../../atoms/SeeplansButton';
 
-function HeroButtonGroup(props: {joinButtonText:string, loginButtonText:string}) {
+function HeroButtonGroup(props: {
+  joinButtonText: string;
+  loginButtonText: string;
+}) {
   return (
     <div className={styles.heroButtonGroupFlex}>
       <JoinButton text={props.joinButtonText} />
@@ -11,4 +14,4 @@ function HeroButtonGroup(props: {joinButtonText:string, loginButtonText:string})
   );
 }
 
-export default HeroButtonGroup
+export default HeroButtonGroup;

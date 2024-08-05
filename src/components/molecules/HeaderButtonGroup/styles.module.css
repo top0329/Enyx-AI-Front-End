@@ -1,17 +1,14 @@
 .headerButtonGroup {
-  @apply
-  flex
+  @apply flex
   flex-row
   gap-[10px]
-  md:gap-6
+  md:gap-6;
 }
 
 .loginButton {
-  @apply
-  basis-1/2
+  @apply basis-1/2;
 }
 
 .startGenerateButton {
-  @apply
-  basis-1/2
+  @apply basis-1/2;
 }

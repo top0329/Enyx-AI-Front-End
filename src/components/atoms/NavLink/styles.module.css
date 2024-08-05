@@ -1,15 +1,13 @@
 .link {
-  @apply
-  font-medium
+  @apply font-medium
   text-base
   /* md:text-lg */
   lg:text-lg
   text-black
   inline-block
-  relative
+  relative;
 }
 
 .link:hover {
-  @apply
-  cursor-pointer
+  @apply cursor-pointer;
 }

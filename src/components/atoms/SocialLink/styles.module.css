@@ -1,16 +1,14 @@
 .socialLink {
-  @apply
-  flex
+  @apply flex
   justify-center
   items-center
   w-[40px]
   h-[40px]
   text-lg
   bg-black
-  text-white
+  text-white;
 }
 
 .socialLink:hover {
-  @apply
-  bg-default
+  @apply bg-default;
 }

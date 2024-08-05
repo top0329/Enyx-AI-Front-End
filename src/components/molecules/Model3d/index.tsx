@@ -29,9 +29,7 @@ function Model3d(props: { data: any }) {
       </div>
     );
   });
-  return (
-    <>{items}</>
-  );
+  return <>{items}</>;
 }
 
 export default Model3d;

@@ -1,6 +1,5 @@
 .heroButtonGroupFlex {
-  @apply
-  flex
+  @apply flex
   flex-col
   md:flex-row
   lg:flex-row
@@ -9,5 +8,5 @@
   justify-start
   lg:justify-start
   md:justify-center
-  gap-6
+  gap-6;
 }

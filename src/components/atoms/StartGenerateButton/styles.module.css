@@ -1,6 +1,5 @@
 .startBtn {
-  @apply
-  uppercase
+  @apply uppercase
   bg-default
   text-center
   font-bold
@@ -25,7 +24,6 @@
 }
 
 .startBtn:hover {
-  @apply
-  bg-hover
+  @apply bg-hover
   cursor-pointer;
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import ServiceBlock from '../../atoms/ServiceBlock';
 
 function ServiceBlockGroup() {

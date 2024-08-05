@@ -3,7 +3,7 @@ import TokenBlockGroup from '../../molecules/TokenBlockGroup';
 import PricingButton from '../../atoms/PricingButton';
 
 function PricingPage() {
-  const [pricingMethod, setPricingMethod]: boolean = useState(true);
+  const [pricingMethod, setPricingMethod] = useState<boolean>(true);
   return (
     <>
       <section className="mt-[50px] mb-[150px]">
