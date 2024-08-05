@@ -1,0 +1,13 @@
+.footerNav {
+  @apply
+  text-[16px]
+  lg:text-lg
+  font-bold
+  uppercase
+  text-black
+}
+
+.footerNav:hover {
+  @apply
+  text-default
+}

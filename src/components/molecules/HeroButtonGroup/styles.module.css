@@ -1,0 +1,13 @@
+.heroButtonGroupFlex {
+  @apply
+  flex
+  flex-col
+  md:flex-row
+  lg:flex-row
+  mb-[40px]
+  md:mb-0
+  justify-start
+  lg:justify-start
+  md:justify-center
+  gap-6
+}

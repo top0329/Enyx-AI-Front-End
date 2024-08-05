@@ -1,0 +1,31 @@
+.startBtn {
+  @apply
+  uppercase
+  bg-default
+  text-center
+  font-bold
+  text-white
+  rounded-lg
+  md:py-3.5
+  py-[10px]
+  md:px-[30px]
+  px-[20px]
+  w-auto
+  lg:w-[197px]
+  md:w-[188px]
+  h-auto
+  md:h-[49px]
+  lg:h-[50px]
+  justify-center
+  items-center
+  text-[15px]
+  lg:text-base
+  leading-[1.3]
+  inline-flex;
+}
+
+.startBtn:hover {
+  @apply
+  bg-hover
+  cursor-pointer;
+}

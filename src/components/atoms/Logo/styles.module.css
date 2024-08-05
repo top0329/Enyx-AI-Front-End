@@ -1,0 +1,11 @@
+.logoButton {
+  @apply
+  cursor-pointer
+  inline-block
+  w-[89px]
+  md:w-[148.9px]
+  md:max-w-full
+  align-middle
+  h-[30px]
+  md:h-auto
+}

@@ -1,0 +1,11 @@
+.bottomLink {
+  @apply
+  text-sm
+  text-black
+  font-medium
+}
+
+.bottomLink:hover {
+  @apply
+  text-default
+}

@@ -1,0 +1,11 @@
+.heroParagraph {
+  @apply
+  mb-[50px]
+  font-medium
+  text-f-gray
+  text-[18px]
+  lg:text-[20px]
+  leading-[1.3]
+  lg:max-w-[600px]
+  max-w-full
+}

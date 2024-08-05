@@ -1,0 +1,9 @@
+.headerNavLinks {
+  @apply
+  /* flex */
+  gap-[30px]
+  lg:gap-[40px]
+  hidden
+  /* sm:flex */
+  md:flex
+}

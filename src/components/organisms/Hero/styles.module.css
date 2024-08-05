@@ -1,0 +1,23 @@
+.heroSection {
+  @apply pb-[50px]
+  pt-[30px]
+  lg:pt-[70px]
+  bg-grey
+  md:pt-[70px];
+}
+
+.heroContainer {
+  @apply container
+  md:max-w-[1280px]
+  max-w-[450px]
+  lg:w-auto
+  sm:w-auto
+  mx-auto;
+}
+
+.heroGrid {
+  @apply mx-6
+  grid
+  grid-cols-6
+  lg:grid-cols-12;
+}

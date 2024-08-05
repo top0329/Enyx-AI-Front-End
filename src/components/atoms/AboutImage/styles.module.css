@@ -1,0 +1,7 @@
+.aboutImage {
+  @apply
+  px-3
+  text-right
+  max-w-full
+  h-auto
+}

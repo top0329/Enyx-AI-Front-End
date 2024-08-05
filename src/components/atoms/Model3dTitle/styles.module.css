@@ -1,0 +1,27 @@
+.model3dTitle {
+  @apply
+  px-3
+  w-full
+  mb-[100px]
+  col-span-12
+}
+
+.model3dTitleHeading {
+  @apply
+  mb-2
+  text-[28px]
+  md:text-[36px]
+  lg:text-[40px]
+  text-black
+  font-medium
+  block
+  leading-[1.2]
+}
+
+.model3dTitleSpan {
+  @apply
+  text-default
+  text-[28px]
+  md:text-[36px]
+  lg:text-[40px]
+}

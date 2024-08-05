@@ -1,0 +1,46 @@
+.headerContainer {
+  @apply container
+  md:max-w-[1280px]
+  md:w-auto
+  max-w-[450px]
+  mx-auto
+  md:py-[30px]
+  py-[20px];
+}
+
+.headerGrid {
+  @apply grid
+  grid-cols-12
+  mx-3
+  md:mx-6
+  box-border;
+}
+
+.logo {
+  @apply flex
+  justify-start
+  items-center
+  lg:col-span-2
+  md:col-span-3
+  col-span-4
+  /* block */
+  box-border
+  px-2;
+}
+
+.headerPart {
+  @apply lg:col-span-10
+  md:col-span-9
+  col-span-6;
+}
+
+.headerFlex {
+  @apply flex
+  items-center
+  justify-end
+  gap-[31px]
+  lg:gap-[80px]
+  /* mr-[-16px]
+  md:mr-0 */
+  /* md:gap-[80px] */;
+}

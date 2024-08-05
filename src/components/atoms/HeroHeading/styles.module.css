@@ -1,0 +1,18 @@
+.heroHeading {
+  @apply
+  text-[40px]
+  lg:text-[60px]
+  md:text-[48px]
+  text-black
+  font-medium
+  mb-[8px]
+  leading-[1.2]
+}
+
+.heroSpan {
+  @apply
+  text-default
+  text-[40px]
+  lg:text-[60px]
+  md:text-[48px]
+}

@@ -1,0 +1,5 @@
+.bottomNav {
+  @apply
+  flex
+  gap-[40px]
+}

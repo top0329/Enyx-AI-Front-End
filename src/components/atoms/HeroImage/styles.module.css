@@ -1,0 +1,12 @@
+.heroImage {
+  @apply
+  flex
+  justify-center
+  px-3
+  text-right
+  max-w-full
+  h-auto
+  lg:scale-100
+  md:scale-[0.8]
+  scale-100
+}

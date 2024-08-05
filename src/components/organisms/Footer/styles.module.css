@@ -1,0 +1,78 @@
+.footerContainer {
+  @apply container
+  md:max-w-[1280px]
+  max-w-[450px]
+  mx-auto;
+}
+
+.footer {
+  @apply pt-[60px]
+  bg-grey;
+}
+
+.footerFlex {
+  @apply grid
+  grid-cols-12
+  flex-grow
+  mx-6;
+}
+
+.logoFlex {
+  @apply col-span-12
+  lg:col-span-3
+  flex
+  justify-start
+  md:justify-center
+  lg:justify-start
+  items-center;
+}
+
+.footerNavFlex {
+  @apply col-span-12
+  lg:col-span-6
+  flex
+  justify-start
+  md:justify-center
+  lg:justify-center
+  items-center
+  my-[20px]
+  lg:my-0
+  mt-[20px]
+  mb-[30px]
+  lg:mt-0
+  lg:mb-0
+  h-full;
+}
+
+.socialLinkFlex {
+  @apply col-span-12
+  lg:col-span-3
+  flex
+  justify-start
+  md:justify-center
+  lg:justify-end
+  items-center
+  md:mt-[40px]
+  mt-0
+  lg:mt-0;
+}
+
+.bottomNavFlex {
+  @apply col-span-12
+  w-full
+  px-5;
+}
+
+.bottomNav {
+  @apply m-auto
+  max-w-[900px]
+  mt-[40px]
+  pt-[20px]
+  pb-[40px]
+  border-t
+  border-solid
+  border-b-gray
+  flex
+  justify-center
+  items-center;
+}
