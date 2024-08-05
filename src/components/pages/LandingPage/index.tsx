@@ -2,6 +2,7 @@ import Hero from '../../organisms/Hero';
 import Service from '../../organisms/Service';
 import Model3dArea from '../../organisms/Model3dArea';
 import NewsLetter from '../../organisms/NewsLetter';
+import HeroImage from '../../../assets/img/hro-img.png';
 
 function LandingPage() {
   return (
@@ -9,10 +10,10 @@ function LandingPage() {
       <Hero
         heroTitle=" models for your work"
         heroTitleSpan="Ready-made "
-        heroImagePath="/src/assets/img/hro-img.png"
+        heroImagePath={HeroImage}
         heroContent="Generate high-quality 3D models, automatically, in certain object categories using text-prompts. Now in beta!"
-        heroMainStyle='col-span-6'
-        heroImageStyle='col-span-6 w-full max-w-full'
+        heroMainStyle="col-span-6"
+        heroImageStyle="col-span-6 w-full max-w-full"
       />
       <Service />
       <Model3dArea />
